@@ -13,9 +13,6 @@ export class Footer extends Component {
         style={{ backgroundColor: "#fff" }}
       >
         <Container fluid>
-          <Row>
-            <MapContainer />
-          </Row>
           <Row className="mt-5">
             <Col
               sm={6}

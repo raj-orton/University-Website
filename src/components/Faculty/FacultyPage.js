@@ -49,20 +49,6 @@ class FacultyPage extends Component {
 
     return (
       <section>
-        <Container
-          style={{ backgroundColor: "brown", color: "#fff" }}
-          className="text-center py-5 aboutpage"
-          fluid
-        >
-          <Row>
-            <Col>
-              <h1>Faculty</h1>
-              <p>
-                Home / <span style={{ color: "brown" }}>Faculty</span>
-              </p>
-            </Col>
-          </Row>
-        </Container>
         <Container className="mt-5 mb-5">
           <Row>{displayFaculty}</Row>
         </Container>

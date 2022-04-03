@@ -17,6 +17,10 @@ import AboutPage from "./container/about/AboutPage";
 import FacultyPage from "./components/Faculty/FacultyPage";
 import Event from "./components/Events/Event";
 import Notify from "./components/Notification/Notify";
+import LoginPage from "./components/Login/LoginPage";
+import HomePage from "./components/Home/HomePage";
+import ViewAttendancePage from "./components/Attendance/ViewAttendance";
+import EditAttendancePage from "./components/Attendance/EditAttendance";
 
 class App extends React.Component {
   constructor(props) {
@@ -34,33 +38,19 @@ class App extends React.Component {
           <Topbar />
           <Switch>
             <Route exact path="/">
-              <Slider />
-              <About />
-              <Message />
-              <VideoPage />
-              <Courses />
-              <PhotoGallary />
+              <HomePage />
             </Route>
-            <Route exact path="/about">
-              <AboutPage />
+            <Route exact path="/viewAttendance">
+              <ViewAttendancePage />
             </Route>
-            <Route exact path="/gallery">
-              <FullGallery />
-            </Route>
-            <Route exact path="/courses">
-              <Courses />
-            </Route>
-            <Route exact path="/events">
-              <Event />
-            </Route>
-            <Route exact path="/notification">
-              <Notify />
+            <Route exact path="/editAttendance">
+              <EditAttendancePage />
             </Route>
             <Route exact path="/faculty">
               <FacultyPage />
             </Route>
-            <Route exact path="/contact">
-              <Contact />
+            <Route exact path="/login">
+              <LoginPage />
             </Route>
           </Switch>
           <Footer />
