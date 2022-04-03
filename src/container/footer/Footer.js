@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import college from "../../images/clogo.png";
+import college from "../../images/logo_full.png";
 import "./footer.css";
 import MapContainer from "./MapContainer";
 
@@ -22,7 +22,7 @@ export class Footer extends Component {
             >
               <Image src={college} fluid />
               <h4 className="mt-3 text-center">
-                University of <br /> York
+                University of <br /> Sadayampatti
               </h4>
             </Col>
             <Col
@@ -40,19 +40,19 @@ export class Footer extends Component {
                   <span class="mr-4 footer-icon">
                     <i class="fas fa-map"></i>
                   </span>
-                  <span>221 baker street, London</span>
+                  <span>Sadayampatty</span>
                 </p>
                 <p class="d-flex flex-wrap">
                   <span class="mr-4 footer-icon">
                     <i class="fas fa-phone"></i>
                   </span>
-                  <span>+91 9834905510 </span>
+                  <span>+91 316272367</span>
                 </p>
                 <p class="d-flex flex-wrap">
                   <span class="mr-4 footer-icon">
                     <i class="fas fa-envelope"></i>
                   </span>
-                  <span>enolaholmes@email.com</span>
+                  <span>kaviarasan@email.com</span>
                 </p>
               </div>
             </Col>
